@@ -1,10 +1,8 @@
 # Secure Quality Gate
 
-    Runs a security scan and fails if issues are found in delta changes.
+    Runs a security scan and fails if issues are found in delta changes before deployment.
 
 **cf-sf-secure-quality-gate**
-
-    Runs security and code quality checks before deployment.
 
 * **Inputs**:
     * **source-directory**: Path to source files.

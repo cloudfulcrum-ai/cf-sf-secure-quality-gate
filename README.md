@@ -1,5 +1,7 @@
 # Secure Quality Gate
 
+    Runs a security scan and fails if issues are found in delta changes.
+
 **cf-sf-secure-quality-gate**
 
     Runs security and code quality checks before deployment.
@@ -13,7 +15,7 @@
 Usage Example:
 
     - name: Run Security & Quality Checks
-      uses: ghcr.io/itfulcrum/cf-sf-secure-quality-gate@latest
+      uses: ghcr.io/cloudfulcrum-ai/cf-sf-secure-quality-gate@latest
       with:
       source-directory: "./src"
 ## Installation & Usage

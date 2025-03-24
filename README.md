@@ -1,9 +1,10 @@
 # Secure Quality Gate
 
-    Runs a security scan and fails if issues are found in delta changes before deployment.
+    This repository contain GitHub Action designed to scan changed metadata to find issues using Salesforce Code Analyzer. The action is packaged as a Docker container and provides a specialized function.
 
 **cf-sf-secure-quality-gate**
 
+    Runs a security scan and fails if issues are found in delta changes before deployment.
 * **Inputs**:
     * **source-directory**: Path to source files.
 
